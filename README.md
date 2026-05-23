@@ -59,9 +59,9 @@ GLOBAL-AIR-QUALITY-MONITORING-PROJECT/
 ├── README.md
 └── requirements.txt
 
+--------------
 
-Dataset Information
-
+## Dataset Information
 The dataset contains global air quality measurements collected from different countries and cities.
 
 Key Features
@@ -73,8 +73,8 @@ CO AQI Value
 Country
 City
 
+---------------------
 The dataset is used for pollution analysis, AQI prediction, and environmental trend visualization.
-
 Technologies Used
 Python
 Pandas
@@ -87,7 +87,9 @@ Streamlit
 Joblib
 Machine Learning Workflow
 
-The project follows a complete machine learning pipeline:
+-------------------------------
+
+## The project follows a complete machine learning pipeline:
 
 Data Collection and Loading
 Data Cleaning and Preprocessing
@@ -98,29 +100,38 @@ Model Evaluation
 Dashboard Visualization
 Model Performance
 
-The machine learning model achieved strong predictive performance.
+-------------
+
+## The machine learning model achieved strong predictive performance.
 
 Metric	Score
 MAE	0.228
 RMSE	2.652
 R² Score	0.997
-Project Screenshots
-Dataset Preview
+
+-------------------
+## Project Screenshots
+# Dataset Preview
 <img src="./screenshots/dataset_preview.png" width="100%">
+
 AQI Distribution
 <img src="./screenshots/aqi_distribution.png" width="100%">
+
 PM2.5 vs AQI Analysis
 <img src="./screenshots/PM2.5_vs_AQI.png" width="100%">
-Key Features
-AQI Prediction using Machine Learning
+
+-----------------------
+## Key Features
+AQI prediction using Machine Learning
 Air Pollution Analysis
 Interactive Data Visualization
 Streamlit Dashboard
 End-to-End ML Pipeline
 Environmental Trend Analysis
 Future Enhancements
+----------------
 
-Planned future improvements for the project:
+## Planned future improvements for the project:
 
 Real-Time AQI Monitoring using APIs
 Time-Series Forecasting
@@ -131,7 +142,7 @@ CI/CD Integration
 
 ----------------
 
-Author
+## Author
 Shubham Panchal
 Data Science | Data Analytics | Machine Learning | Genereative AI
 Focused on building practical, real-world, end-to-end data science and machine learning projects.
