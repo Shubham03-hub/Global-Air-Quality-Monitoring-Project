@@ -1,20 +1,23 @@
 # Global Air Quality Monitoring Project
 
-A complete end-to-end Data Science and Machine Learning project focused on analyzing, visualizing, and predicting global air quality using AQI (Air Quality Index) data.
+An end-to-end Data Science and Machine Learning project focused on analyzing, visualizing, and predicting global air quality using AQI (Air Quality Index) data.
+
+This project demonstrates the complete data science workflow — from data preprocessing and exploratory data analysis to machine learning model development and interactive dashboard creation using Streamlit.
 
 ---
 
 # Project Overview
 
-This project demonstrates the full data science workflow, including:
+The project includes:
 
-* Data Collection and Cleaning
+* Data Cleaning and Preprocessing
 * Exploratory Data Analysis (EDA)
 * AQI Prediction using Machine Learning
 * Data Visualization and Insights
-* Interactive Dashboard Development with Streamlit
+* Interactive Streamlit Dashboard
+* Model Evaluation and Performance Analysis
 
-The project helps identify pollution patterns, understand environmental trends, and build predictive models for air quality analysis.
+The goal of this project is to identify pollution patterns, understand environmental trends, and build predictive models for air quality monitoring.
 
 ---
 
@@ -54,9 +57,9 @@ global-air-quality-project/
 
 ---
 
-#  Dataset Information
+# Dataset Information
 
-The dataset includes air quality measurements from multiple countries and cities worldwide.
+The dataset contains global air quality measurements collected from different countries and cities.
 
 ### Key Features
 
@@ -68,13 +71,11 @@ The dataset includes air quality measurements from multiple countries and cities
 * Country
 * City
 
-The dataset is used for pollution analysis, visualization, and AQI prediction modeling.
+The dataset is used for pollution analysis, AQI prediction, and environmental trend visualization.
 
 ---
 
 # 🛠 Technologies Used
-
-This project was built using the following technologies and libraries:
 
 * Python
 * Pandas
@@ -88,71 +89,9 @@ This project was built using the following technologies and libraries:
 
 ---
 
-#  Installation Guide
-
-## Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
-```
-
-## Navigate to the Project Folder
-
-```bash
-cd global-air-quality-project
-```
-
-## Install Required Libraries
-
-```bash
-python -m pip install -r requirements.txt
-```
-
----
-
-# Running the Project
-
-## Step 1: Load the Dataset
-
-```bash
-python src/data_loading.py
-```
-
-## Step 2: Preprocess the Data
-
-```bash
-python src/preprocessing.py
-```
-
-## Step 3: Perform Exploratory Data Analysis (EDA)
-
-```bash
-python src/eda.py
-```
-
-## Step 4: Train the Machine Learning Model
-
-```bash
-python src/modeling.py
-```
-
-## Step 5: Evaluate Model Performance
-
-```bash
-python src/evaluation.py
-```
-
-## Step 6: Launch the Streamlit Dashboard
-
-```bash
-python -m streamlit run dashboards/app.py
-```
-
----
-
 # Model Performance
 
-The machine learning model achieved excellent predictive performance:
+The machine learning model achieved strong predictive performance:
 
 | Metric   | Score |
 | -------- | ----- |
@@ -166,17 +105,29 @@ The machine learning model achieved excellent predictive performance:
 
 ## Dataset Preview
 
+```md
+![Dataset Preview](screenshots/dataset_preview.png)
+```
+
 ![Dataset Preview](screenshots/dataset_preview.png)
 
 ---
 
-## AQI Distribution Analysis
+## 📊 AQI Distribution
+
+```md
+![AQI Distribution](screenshots/aqi_distribution.png)
+```
 
 ![AQI Distribution](screenshots/aqi_distribution.png)
 
 ---
 
-## 🌫 PM2.5 vs AQI Relationship
+## 🌫 PM2.5 vs AQI Analysis
+
+```md
+![PM2.5 vs AQI](screenshots/PM2.5_vs_AQI.png)
+```
 
 ![PM2.5 vs AQI](screenshots/PM2.5_vs_AQI.png)
 
@@ -188,28 +139,39 @@ The machine learning model achieved excellent predictive performance:
 * Air Pollution Analysis
 * Interactive Data Visualization
 * Streamlit Dashboard
-* Automated Data Processing Pipeline
-* Model Evaluation and Insights
+* End-to-End ML Pipeline
+* Environmental Trend Analysis
 
 ---
 
 # Future Enhancements
 
-Possible future improvements for the project include:
+Future improvements planned for the project:
 
 * Real-Time AQI Monitoring using APIs
-* Time Series Forecasting
-* Geospatial Pollution Mapping
-* Deep Learning-Based Prediction Models
-* Cloud Deployment and CI/CD Integration
+* Time-Series Forecasting
+* Pollution Heatmaps and Geospatial Analysis
+* Deep Learning Models
+* Cloud Deployment
+* CI/CD Integration
 
 ---
 
 # Author
 
-**Shubham Panchal**
-Data Science | Data Analytics | Machine Learning
-Focused on building practical, real-world, end-to-end data science projects.
+## Shubham Panchal
 
-🔗 LinkedIn:
+Data Science | Data Analytics | Machine Learning
+
+Focused on building practical, real-world, end-to-end data science and machine learning projects.
+
+### LinkedIn
+
+```md
+https://linkedin.com/in/shubham-panchal-a100282a8
+```
 [https://linkedin.com/in/shubham-panchal-a100282a8](https://linkedin.com/in/shubham-panchal-a100282a8)
+
+
+
+
